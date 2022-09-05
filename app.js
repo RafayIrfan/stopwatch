@@ -19,7 +19,7 @@ function start(){
         if (msecValue.innerHTML >= 100) {
             sec++
             msec = 0
-        } else if (secValue.innerHTML >= 5) {
+        } else if (secValue.innerHTML >= 60) {
             min++
             sec = 0
         } else if(minValue.innerHTML >= 60){
